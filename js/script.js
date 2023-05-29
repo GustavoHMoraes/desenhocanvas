@@ -26,9 +26,10 @@ ctx.beginPath();
 ctx.fillStyle="#00C8F0"
 ctx.lineWidth = 5;
 ctx.moveTo(200, 430);
-ctx.quadraticCurveTo(350, 420, 200, 380);
+ctx.bezierCurveTo(270, 440, 300, 440, 250, 390)
 ctx.stroke();
 ctx.fill();
+
 
 ctx.beginPath();
 ctx.fillStyle="#00C8F0"
