@@ -1,25 +1,18 @@
-# Desenho canvas
-Gustavo Henrique Moraes Rocillo e Cauã Magalhães
-Este projeto utiliza o canvas para criar um desenho
+# Desenho no Canvas
+Gustavo Henrique Moraes Rocillo e Cauã Magalhães <br>
+Este projeto utiliza o elemento canvas para criar um desenho.
 
 # Gramado
-
-Para o gramado, foi utilizado o "fillStyle", e "fillRect", que determinam a cor e tamanho do retângulo.
+Para desenhar o gramado, utilizamos "fillStyle" e "fillRect" para determinar a cor e o tamanho do retângulo.
 
 # Pernas
-
-Para cada perna foram utilizados "stroke", 3 "lineTo", uma para à coxa e uma pra à panturrilha, e outra pra a meia.
-Já, para o joelho foi utilizado "bezierCurveTo".
+Para cada perna, utilizamos "stroke", 3 "lineTo", um para a coxa, outro para a panturrilha e outro para a meia. Além disso, utilizamos "bezierCurveTo" para desenhar o joelho.
 
 # Chuteiras
-
-Para cada chuteira, foi utilizado "stroke", 2 "bezierCurveTo" pra criar o formato da chuteira, e uma "quadraticCurveTo" pra criar o simbolo.
-E também foi utilizado o "fillStyle" e "fill" para dar cor a chuteira.
+Para cada chuteira, utilizamos "stroke", 2 "bezierCurveTo" para criar o formato da chuteira e um "quadraticCurveTo" para adicionar o símbolo. Também utilizamos "fillStyle" e "fill" para dar cor à chuteira.
 
 # Bola
-
-Para fazermos a bola utilizamos o "beginPath", e "arc" para a circunferência, e "moveTo", "lineTo", e "stroke" para o pentágono.
+Para desenhar a bola, utilizamos "beginPath" e "arc" para criar a circunferência e "moveTo", "lineTo" e "stroke" para desenhar o padrão de pentágono.
 
 # Shorts
-
-E para o shorts foi utilizado uma sequencia de "moveTo", "lineTo", e também "stroke".
+Para desenhar o short, utilizamos uma sequência de comandos "moveTo", "lineTo" e "stroke".
