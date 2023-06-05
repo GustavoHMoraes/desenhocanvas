@@ -1,6 +1,8 @@
 const canvas = document.getElementById('canva');
 const ctx = canvas.getContext('2d');
 
+//gramado
+
 ctx.moveTo(10,500);
 ctx.fillStyle = "green";
 ctx.fillRect(0,400,800,100);
